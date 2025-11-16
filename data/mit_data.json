@@ -1,0 +1,404 @@
+{
+  "college_info": {
+    "basic_info": {
+      "full_name": "Muzaffarpur Institute of Technology (MIT), Muzaffarpur",
+      "abbreviation": "MIT Muzaffarpur",
+      "established": "1954",
+      "type": "Government Engineering College",
+      "affiliation": "Aryabhatta Knowledge University, Patna",
+      "approval": "AICTE, New Delhi",
+      "campus_size": "50 acres",
+      "location": "Muzaffarpur, Bihar, India",
+      "website": "https://mitmuzaffarpur.org",
+      "phone": "0621-2242441",
+      "email": "info@mitmuzaffarpur.org",
+      "address": "Motipur Road, Ramna, Muzaffarpur, Bihar, 842001"
+    },
+    "history": "🏛️ **History & Legacy:**\n• Established in 1954 as one of Bihar's premier engineering institutes\n• Over 65 years of excellence in technical education\n• Originally started as a polytechnic, upgraded to degree college in 1960s\n• Has produced thousands of successful engineers globally\n• Known for its strong foundation in core engineering disciplines\n• Alumni have gone on to work in top companies and academic institutions",
+    "vision_mission": {
+      "vision": "To be a center of excellence in technical education and research, producing competent engineers capable of meeting global challenges.",
+      "mission": [
+        "Provide quality technical education through innovative teaching.",
+        "Develop state-of-the-art infrastructure and laboratories.",
+        "Foster industry-academia collaboration.",
+        "Promote research and development activities.",
+        "Develop socially responsible professionals.",
+        "Encourage entrepreneurship and lifelong learning."
+      ]
+    },
+    "key_features": [
+      "🎓 Government institution with highly subsidized fees",
+      "🏛️ Rich legacy of 65+ years in education",
+      "🔬 Well-equipped laboratories and workshops",
+      "📚 Central library with 15,000+ books and digital library",
+      "🏠 Separate hostel facilities for boys and girls",
+      "🤝 Strong industry connections for internships and placements",
+      "🌳 50-acre green campus with landscaped gardens and sports grounds",
+      "👨‍🏫 Experienced and qualified faculty members in all departments",
+      "🚌 College bus service for nearby towns",
+      "💻 Wi-Fi enabled campus across all major buildings"
+    ],
+    "leadership": {
+      "director": "Dr. Rajesh Kumar Singh",
+      "registrar": "Dr. Priya Sharma",
+      "dean_academics": "Dr. Anjali Verma",
+      "heads_of_department": {
+        "cse": "Dr. Amit Kumar",
+        "it": "Dr. Sunil Verma",
+        "ece": "Dr. Neha Gupta",
+        "me": "Dr. Ramesh Patel",
+        "civil": "Dr. Pooja Singh",
+        "chemical": "Dr. Ravi Agrawal"
+      }
+    },
+    "infrastructure": {
+      "academic_buildings": "4 main academic blocks (Blocks A, B, C, D)",
+      "laboratories": {
+        "computer_science": ["Programming Lab", "AI & ML Lab", "Cybersecurity Lab"],
+        "ece": ["Communications Lab", "Embedded Systems Lab", "VLSI Lab"],
+        "mechanical": ["Thermodynamics Lab", "CAD/CAM Lab", "Manufacturing Workshop"],
+        "general": ["Physics Lab", "Chemistry Lab", "Mathematics Lab"]
+      },
+      "library": {
+        "type": "Central Library",
+        "sections": ["Textbooks", "Reference", "Journals", "Digital"],
+        "books_count": 15000,
+        "subscriptions": ["IEEE Xplore", "Springer", "Elsevier"]
+      },
+      "hostels": {
+        "count": 7,
+        "boys": 4,
+        "girls": 3,
+        "amenities": ["Wi-Fi", "Mess", "Common Room", "Study Room", "Gym"]
+      },
+      "sports": {
+        "playground": true,
+        "gymnasium": true,
+        "indoor_games": ["Table Tennis", "Chess", "Badminton"],
+        "outdoor_games": ["Football", "Cricket", "Volleyball"]
+      },
+      "other_facilities": ["Auditorium", "Cafeteria", "Medical Center", "Bank ATM", "Transportation"]
+    }
+  },
+  "departments": {
+    "CSE": {
+      "full_name": "Computer Science & Engineering",
+      "description": "Focuses on programming, algorithms, AI, ML, data structures, and systems.",
+      "faculty": [
+        { "name": "Dr. Amit Kumar", "designation": "HOD", "email": "amit.kumar@mitmuzaffarpur.org" },
+        { "name": "Dr. Meera Sharma", "designation": "Associate Professor", "email": "meera.sharma@mitmuzaffarpur.org" },
+        { "name": "Mr. Rahul Singh", "designation": "Assistant Professor", "email": "rahul.singh@mitmuzaffarpur.org" }
+      ],
+      "labs": ["Programming Lab", "AI & ML Lab", "Cybersecurity Lab"],
+      "courses": ["Data Structures", "Algorithms", "Operating Systems", "Machine Learning"],
+      "student_activities": ["Coding Club", "Hackathon Team", "Research Project Group"]
+    },
+    "IT": {
+      "full_name": "Information Technology",
+      "description": "Covers networking, databases, software development, cloud computing.",
+      "faculty": [
+        { "name": "Dr. Sunil Verma", "designation": "HOD", "email": "sunil.verma@mitmuzaffarpur.org" },
+        { "name": "Ms. Anusha Gupta", "designation": "Assistant Professor", "email": "anusha.gupta@mitmuzaffarpur.org" }
+      ],
+      "labs": ["Database Lab", "Network Lab"],
+      "courses": ["Database Systems", "Network Security", "Web Technologies", "Software Engineering"],
+      "student_activities": ["IT Club", "Web Dev Team", "Database Research Group"]
+    },
+    "ECE": {
+      "full_name": "Electronics & Communication Engineering",
+      "description": "Focus on communication systems, embedded design, signal processing.",
+      "faculty": [
+        { "name": "Dr. Neha Gupta", "designation": "HOD", "email": "neha.gupta@mitmuzaffarpur.org" },
+        { "name": "Mr. Sanjay Prasad", "designation": "Assistant Professor", "email": "sanjay.prasad@mitmuzaffarpur.org" }
+      ],
+      "labs": ["VLSI Lab", "Embedded Systems Lab", "Communication Lab"],
+      "courses": ["Digital Communications", "Microcontrollers", "Signal Processing", "VLSI"],
+      "student_activities": ["Robotics Club", "Embedded Systems Workshop", "Wireless Project Group"]
+    },
+    "Mechanical": {
+      "full_name": "Mechanical Engineering",
+      "description": "Mechanical design, thermodynamics, manufacturing.",
+      "faculty": [
+        { "name": "Dr. Ramesh Patel", "designation": "HOD", "email": "ramesh.patel@mitmuzaffarpur.org" },
+        { "name": "Ms. Priyanka Roy", "designation": "Assistant Professor", "email": "priyanka.roy@mitmuzaffarpur.org" }
+      ],
+      "labs": ["Thermodynamics Lab", "CAD/CAM Lab", "Manufacturing Workshop"],
+      "courses": ["Thermodynamics", "Fluid Mechanics", "Machine Design", "Manufacturing Processes"],
+      "student_activities": ["Design Club", "Mechanics Workshop", "Vehicle Project Team"]
+    },
+    "Civil": {
+      "full_name": "Civil Engineering",
+      "description": "Construction, structural design, materials, environment.",
+      "faculty": [
+        { "name": "Dr. Pooja Singh", "designation": "HOD", "email": "pooja.singh@mitmuzaffarpur.org" },
+        { "name": "Mr. Anil Kumar", "designation": "Assistant Professor", "email": "anil.kumar@mitmuzaffarpur.org" }
+      ],
+      "labs": ["Structural Lab", "Survey Lab", "Geotechnical Lab"],
+      "courses": ["Structural Engineering", "Geotechnical Engineering", "Transport Engineering", "Hydraulics"],
+      "student_activities": ["Civil Club", "Building Project Team", "Environment Initiative"]
+    }
+  },
+  "courses": {
+    "B.Tech": [
+      {
+        "name": "B.Tech Computer Science & Engineering",
+        "duration": "4 Years",
+        "intake": 60,
+        "eligibility": "10+2 with PCM, 45% marks",
+        "tuition_fee": "₹22,120",
+        "annual_fee": "₹5,530",
+        "highlights": ["Programming", "AI", "Machine Learning", "Web Development"],
+        "semesters": 8
+      },
+      {
+        "name": "B.Tech Information Technology",
+        "duration": "4 Years",
+        "intake": 60,
+        "eligibility": "10+2 with PCM, 45% marks",
+        "tuition_fee": "₹22,120",
+        "annual_fee": "₹5,530",
+        "highlights": ["Networking", "Database", "Software Engineering", "Cloud Computing"],
+        "semesters": 8
+      },
+      {
+        "name": "B.Tech Electronics & Communication Engineering",
+        "duration": "4 Years",
+        "intake": 60,
+        "eligibility": "10+2 with PCM, 45% marks",
+        "tuition_fee": "₹22,120",
+        "annual_fee": "₹5,530",
+        "highlights": ["VLSI", "Embedded Systems", "Communication", "Signal Processing"],
+        "semesters": 8
+      },
+      {
+        "name": "B.Tech Mechanical Engineering",
+        "duration": "4 Years",
+        "intake": 60,
+        "eligibility": "10+2 with PCM, 45% marks",
+        "tuition_fee": "₹22,120",
+        "annual_fee": "₹5,530",
+        "highlights": ["Thermodynamics", "Manufacturing", "Design", "Mechanics"],
+        "semesters": 8
+      },
+      {
+        "name": "B.Tech Civil Engineering",
+        "duration": "4 Years",
+        "intake": 30,
+        "eligibility": "10+2 with PCM, 45% marks",
+        "tuition_fee": "₹22,120",
+        "annual_fee": "₹5,530",
+        "highlights": ["Structural Engineering", "Transport Engineering", "Environment", "Construction"],
+        "semesters": 8
+      }
+    ],
+    "M.Tech": [
+      {
+        "name": "M.Tech Computer Science",
+        "duration": "2 Years",
+        "intake": 18,
+        "eligibility": "B.Tech in CSE/IT with ≥55% marks or equivalent",
+        "semester_fee": "₹75,000",
+        "highlights": ["Advanced Algorithms", "Machine Learning", "Distributed Systems", "Data Mining"],
+        "semesters": 4
+      },
+      {
+        "name": "M.Tech VLSI Design",
+        "duration": "2 Years",
+        "intake": 12,
+        "eligibility": "B.Tech in ECE or equivalent",
+        "semester_fee": "₹75,000",
+        "highlights": ["VLSI Circuit Design", "Low-power Design", "FPGA", "Analog IC"],
+        "semesters": 4
+      }
+    ]
+  },
+  "fees_structure": {
+    "academic_fees": {
+      "btech": {
+        "total": "₹22,120",
+        "annual": "₹5,530",
+        "note": "Heavily subsidized as a government institution"
+      },
+      "mtech": {
+        "semester": "₹75,000",
+        "total": "₹150,000 (for 2 years)"
+      }
+    },
+    "hostel_mess_fees": {
+      "annual_mess": "₹38,684 (male students, compulsory)",
+      "hostel_maintenance": "₹16,700/year",
+      "mess_charges": "₹21,984 for 6 months",
+      "girls_hostel_cost": {
+        "maintenance": "₹18,000/year",
+        "mess": "₹22,000 for 6 months"
+      }
+    },
+    "other_fees": {
+      "examination": "₹1,500 per semester",
+      "library_deposit": "₹2,000 (refundable)",
+      "alumni_fee": "₹500/year"
+    }
+  },
+  "admissions": {
+    "process": "Through Bihar UGEAC Counselling based on JEE Main Rank",
+    "cutoff_ranks": {
+      "information_technology": "200-300 UGEAC Rank",
+      "computer_science": "150-250 UGEAC Rank",
+      "electronics": "300-400 UGEAC Rank",
+      "mechanical": "350-450 UGEAC Rank",
+      "civil": "400-500 UGEAC Rank"
+    },
+    "reservation_policy": {
+      "general": "50%",
+      "SC": "16%",
+      "ST": "1%",
+      "EWS": "10%",
+      "BC": "23%"
+    },
+    "scholarships": [
+      {
+        "name": "Merit Scholarship",
+        "eligibility": "Top 5% of each branch in semester exams",
+        "amount": "₹10,000/year"
+      },
+      {
+        "name": "Bihar State Scholarship",
+        "eligibility": "Resident students with income criteria",
+        "amount": "Varies as per state govt norms"
+      }
+    ]
+  },
+  "placements": {
+    "placement_cell": "Dedicated Training & Placement Cell supporting internships, resume building, mock interviews",
+    "companies": ["TCS", "Infosys", "Wipro", "Tech Mahindra", "Cognizant", "Capgemini", "Accenture", "Larsen & Toubro", "Siemens"],
+    "highest_package": "8 LPA",
+    "average_package": "3.5 LPA",
+    "branch_wise_statistics": {
+      "CSE_IT": {
+        "average": "4.2 LPA",
+        "highest": "8 LPA"
+      },
+      "ECE": {
+        "average": "3.2 LPA",
+        "highest": "7 LPA"
+      },
+      "Mechanical": {
+        "average": "3.0 LPA",
+        "highest": "6 LPA"
+      },
+      "Civil": {
+        "average": "2.8 LPA",
+        "highest": "5 LPA"
+      }
+    },
+    "internship_statistics": {
+      "percentage_students_interned": "60%",
+      "notable_intern_companies": ["Google (intern)", "Microsoft (intern)", "TCS", "Infosys"]
+    },
+    "training_programs": ["Soft skills workshop", "Coding bootcamp", "Resume building", "Mock interviews"]
+  },
+  "student_life": {
+    "clubs": ["Coding Club", "Robotics Club", "Cultural Society", "Sports Club", "Entrepreneurship Cell", "Music Club", "Photography Club"],
+    "events": [
+      {
+        "name": "Tech Fest",
+        "description": "Annual technology festival with hackathons, coding competitions, workshops",
+        "month": "February"
+      },
+      {
+        "name": "Cultural Fest",
+        "description": "Cultural celebration with music, dance, drama, food stalls",
+        "month": "March"
+      },
+      {
+        "name": "Sports Tournament",
+        "description": "Inter-department sports competitions",
+        "month": "October"
+      },
+      {
+        "name": "Entrepreneurship Workshop",
+        "description": "Workshop for startup ideas, business plan mentorship",
+        "month": "July"
+      }
+    ],
+    "facilities": ["WiFi Campus", "Medical Room", "Cafeteria", "Bank ATM", "Gym", "Common Rooms", "Bus Service"],
+    "student_support": {
+      "counseling_cell": "Yes – mental health and academic counseling",
+      "anti_ragging_committee": "Yes – regular anti-ragging workshops",
+      "mentorship_program": "Senior students mentor juniors"
+    }
+  },
+  "faq": [
+    {
+      "question": "What is the dress code on campus?",
+      "answer": "Casual dress is allowed; smart casual is recommended in labs and for formal events. No offensive clothing."
+    },
+    {
+      "question": "How is attendance monitored?",
+      "answer": "Attendance is taken every class; minimum 75% attendance is required to sit for semester exams."
+    },
+    {
+      "question": "Are there scholarships available?",
+      "answer": "Yes – Merit Scholarship, State Scholarships, and other government scholarship schemes are available."
+    },
+    {
+      "question": "Is there a canteen or food court?",
+      "answer": "Yes – the campus has a cafeteria with snacks, lunch options, and a mess for hostel students."
+    },
+    {
+      "question": "Does the college provide transport?",
+      "answer": "Yes – there is a college bus service covering Muzaffarpur city and nearby areas."
+    },
+    {
+      "question": "What is the exam pattern?",
+      "answer": "The academic year is divided into two semesters. Each semester has mid-term exams, practicals, and end-term exams."
+    },
+    {
+      "question": "Can students host their own technical workshops or clubs?",
+      "answer": "Yes – students can propose new clubs or workshops through the Student Activities Office, subject to approval."
+    },
+    {
+      "question": "How do I apply for a hostel?",
+      "answer": "Hostel application is done after admission via a separate portal. Allots based on merit and availability."
+    }
+  ],
+  "transport": {
+    "bus_service": {
+      "routes": [
+        { "route_name": "City Loop", "stops": ["Ramna", "Kanti Road", "Town Center", "Bus Stand"] },
+        { "route_name": "Suburbs Route", "stops": ["Gaighat", "Bettiah Road", "Motipur Road"] }
+      ],
+      "fare": "₹15-₹50 depending on distance",
+      "schedule": "6:00 AM – 9:00 PM (every 30 mins)"
+    },
+    "parking": {
+      "student_parking": "Yes – two designated parking lots for two-wheelers and cars",
+      "visitor_parking": "Limited – in front of main gate",
+      "fees": "₹100/month for students (optional), visitor ₹10/hour"
+    }
+  },
+  "accreditation_research": {
+    "accreditation": ["AICTE", "NBA (CSE & ECE accredited)"],
+    "research_projects": [
+      {
+        "title": "AI-Based Traffic Prediction System",
+        "department": "CSE",
+        "sponsor": "DST",
+        "duration": "2023–2025",
+        "budget": "₹25 Lakh"
+      },
+      {
+        "title": "Low-Power VLSI Design",
+        "department": "ECE",
+        "sponsor": "Industry Collaboration",
+        "duration": "2022–2024",
+        "budget": "₹15 Lakh"
+      }
+    ],
+    "publication_stats": {
+      "papers_per_year": 50,
+      "conferences": ["IEEE ICC", "IEEE VLSI", "ACM SIGCSE"],
+      "journals": ["IEEE Transactions", "Elsevier Journals"]
+    }
+  }
+}
