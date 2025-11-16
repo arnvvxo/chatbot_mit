@@ -21,17 +21,14 @@ class CampusChatbot:
         print("🤖 Chatbot ready with complete college information!")
     
     def load_data(self):
-        # FIX: Added encoding='utf-8'
         with open('data/mit_data.json', 'r', encoding='utf-8') as f:
             self.mit_data = json.load(f)
     
     def prepare_dataset(self):
         self.questions = []
         self.answers = []
-        
-        # Enhanced question-answer pairs with college information
-        qa_pairs = [
-            # ========== COLLEGE INFORMATION & HISTORY ==========
+                qa_pairs = [
+            # COLLEGE INFORMATION & HISTORY 
             ("tell me about college", self.get_college_overview()),
             ("about mit muzaffarpur", self.get_college_overview()),
             ("college information", self.get_college_overview()),
@@ -50,20 +47,16 @@ class CampusChatbot:
             
             ("contact information", "📞 Contact Information:\n• Phone: 0621-2242441\n• Email: info@mitmuzaffarpur.org\n• Website: https://mitmuzaffarpur.org\n• Location: Muzaffarpur, Bihar"),
 
-            # ========== FEE-RELATED QUESTIONS ==========
             ("tuition fee btech", "💰 B.Tech Tuition Fees:\n• Total 4-year program: ₹22,120\n• Annual: ₹5,530 per year\n• Note: Heavily subsidized as a government institution"),
             ("btech fee", "🎓 B.Tech Fee Structure:\n• Academic Fee (4 years): ₹22,120\n• This is highly subsidized - Government institution"),
             
             ("hostel mess charge", "🏠 Hostel & Mess Fees:\n• Annual: ₹38,684 (compulsory for male students)\n• Hostel: ₹16,700/year\n• Mess: ₹21,984/6 months"),
 
-            # ========== ADMISSION QUESTIONS ==========
             ("cutoff rank it", "📊 IT Branch Cutoff:\n• UGEAC Rank: 200-300\n• Through UGEAC Counselling\n• Based on JEE Main Rank"),
             ("admission process", "📝 Admission Process:\n1. Appear for JEE Main\n2. Register for UGEAC Counselling\n3. Choice filling\n4. Seat allotment\n5. Document verification\n6. Fee payment"),
 
-            # ========== COURSE QUESTIONS ==========
             ("what courses", "🎓 Available Courses:\n• B.Tech: CSE, IT, ECE, Mechanical\n• M.Tech: Computer Science\n• All B.Tech: 4 years duration"),
 
-            # ========== GENERAL QUESTIONS ==========
             ("hello", "👋 Hello! Welcome to MIT Muzaffarpur!\nI can help with college information, fees, admissions, and courses!"),
             ("hi", "👋 Hi! Ask me about MIT Muzaffarpur - established in 1954!"),
             ("thank you", "😊 You're welcome!"),
@@ -134,4 +127,5 @@ def ask_question():
 
 if __name__ == '__main__':
     print("🚀 CHATBOT RUNNING at http://localhost:5000")
+
     app.run(debug=True, port=5000)
